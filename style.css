@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+.header {
+    background-image: url(img/background.png);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-top: 230px;
+    padding-left: 80px;
+    height: 800px;
+}
+
+#quotes {
+    padding-top: 180px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#next {
+    background-color: black;
+    color: white;
+    height: 20px
+}
+
+
+
+/* ABOUT */
+.about{
+    height: 450px;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#about-header{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+#about-paragraph{
+    font-weight: 100;
+    padding-left: 300px;
+    padding-right: 300px;
+    line-height: 25px ;
+}
+
+
+
+/*FUNFACT*/
+.funfact {
+    height: 500px;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.whatshot {
+    width: 300px;
+    float: left;
+}
+
+.whatshot h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: brown;
+}
+
+.whatshot input {
+    margin: 10px;
+    width: 150px;
+    height: 20px
+}
+
+label {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.whatshot button {
+    margin-left: 5px;
+    width: 70px;
+    height: 20px;
+    color: white;
+    background-color: black;
+}
+
+.whatshot li{
+    margin: 25px;
+    font-weight: 50px;
+}
+
+.info {
+    width: 660px;
+    display: inline-block;
+    height: 450px;
+}
+
+#factimage {
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+/* BLOG */
+.blog {
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.image{
+    width: 450px;
+    height: 253px;
+    float: left;
+    margin-right: 20px;
+}
+
+.blog-box{
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 900px;
+    height: 253px;
+    border: 1px solid black;
+   
+}
+
+h3.content{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.content{
+    padding-right: 18px;
+    font-weight: 20;
+    line-height: 20px ;
+    font-size: 15px;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: lightgray;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
